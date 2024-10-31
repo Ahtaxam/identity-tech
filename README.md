@@ -32,8 +32,8 @@ A secure identity management system built with Next.js and PostgreSQL. This proj
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/articulate-interviews/identity-tech-challenge-shimrah-mahjabeen
-   cd identity-tech-challenge-shimrah-mahjabeen
+   git clone https://github.com/Ahtaxam/identity-tech.git
+   cd identity-tech
    ```
 
 2. Install dependencies:
