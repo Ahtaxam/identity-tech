@@ -1,0 +1,126 @@
+.verifyWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: linear-gradient(135deg, #eef2f7, #cfd8e3);
+    padding: 1rem;
+  }
+  
+  .verifyContainer {
+    background-color: white;
+    padding: 3rem 2rem; 
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #0070f3;
+    font-weight: 600;
+  }
+  
+  .subheading {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .verifyForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .formGroup label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .formGroup input {
+    width: 90%;
+    padding: 0.875rem; 
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s ease-in-out;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .formGroup input:focus {
+    border-color: #0070f3;
+    outline: none;
+  }
+  
+ 
+.buttonGroup {
+  display: flex;          
+  justify-content: space-between; 
+  align-items: center;    
+  margin-top: 1rem;     
+}
+
+.submitButton {
+  background-color: #0070f3; 
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+      background-color: #005bb5; 
+  }
+}
+
+.sendAgainLink {
+  background: none;          
+  color: #0070f3;           
+  text-decoration: underline; 
+  border: none;             
+  cursor: pointer;           
+
+  &:hover {
+      color: #005bb5;       
+  }
+}
+  
+  .submitButton:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px); 
+  }
+  
+  .submitButton:active {
+    transform: translateY(1px); 
+  }
+  
+  @media (max-width: 500px) {
+    .verifyContainer {
+      padding: 2rem 1.5rem; 
+    }
+  
+    .heading {
+      font-size: 1.8rem; 
+    }
+  
+    .formGroup input {
+      padding: 0.75rem; 
+    }
+  
+    .submitButton {
+      font-size: 1.1rem; 
+      padding: 0.75rem; 
+    }
+  }
+  

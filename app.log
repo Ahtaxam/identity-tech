@@ -1,0 +1,143 @@
+2024-10-31 04:34:37 [32minfo[39m: Start creating user
+2024-10-31 04:34:37 [32minfo[39m: User created successfully!
+2024-10-31 04:34:40 [32minfo[39m: 2FA email sent to taha.hadayat@devsinc.com
+2024-10-31 04:35:16 [31merror[39m: Error verifying user: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: Int,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   twoFactorToken?: IntNullableFilter | Int | Null,
+?   expireAt?: DateTimeNullableFilter | DateTime | Null,
+?   isAdmin?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-10-31 04:35:27 [31merror[39m: Error verifying user: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: Int,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   twoFactorToken?: IntNullableFilter | Int | Null,
+?   expireAt?: DateTimeNullableFilter | DateTime | Null,
+?   isAdmin?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-10-31 04:38:09 [31merror[39m: Error verifying user: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: Int,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   twoFactorToken?: IntNullableFilter | Int | Null,
+?   expireAt?: DateTimeNullableFilter | DateTime | Null,
+?   isAdmin?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-10-31 04:38:26 [31merror[39m: Error verifying user: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: Int,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   twoFactorToken?: IntNullableFilter | Int | Null,
+?   expireAt?: DateTimeNullableFilter | DateTime | Null,
+?   isAdmin?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-10-31 04:38:47 [31merror[39m: Error verifying user: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: Int,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   twoFactorToken?: IntNullableFilter | Int | Null,
+?   expireAt?: DateTimeNullableFilter | DateTime | Null,
+?   isAdmin?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-10-31 04:39:16 [31merror[39m: Error verifying user: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    email: undefined,
+?   id?: Int,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   name?: StringFilter | String,
+?   password?: StringFilter | String,
+?   twoFactorToken?: IntNullableFilter | Int | Null,
+?   expireAt?: DateTimeNullableFilter | DateTime | Null,
+?   isAdmin?: BoolFilter | Boolean,
+?   createdAt?: DateTimeFilter | DateTime
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+2024-10-31 04:39:37 [31merror[39m: Error verifying user: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    email: {}
+           ~~
+  }
+}
+
+Argument `email`: Invalid value provided. Expected String, provided Object.
+2024-10-31 04:40:07 [31merror[39m: Verification code expired
+2024-10-31 04:41:40 [32minfo[39m: Start creating user
+2024-10-31 04:41:40 [32minfo[39m: User created successfully!
+2024-10-31 04:41:43 [32minfo[39m: 2FA email sent to ahtasham.ali@devsinc.com
+2024-10-31 04:41:58 [32minfo[39m: User verified successfully:
+2024-10-31 04:42:07 [32minfo[39m: Start updating user
+2024-10-31 04:42:07 [32minfo[39m: User updated successfully
+2024-10-31 04:42:22 [32minfo[39m: Fetching all users
+2024-10-31 04:42:22 [32minfo[39m: Fetching all users

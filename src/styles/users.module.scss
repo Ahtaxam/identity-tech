@@ -1,0 +1,149 @@
+$user-background: #ffffff;
+$header-background: #0070f3;
+$text-color: #333;
+$border-color: #e0e0e0;
+
+.userListContainer {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+
+    .backLink {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: $text-color;
+    }
+}
+
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden; 
+
+    thead {
+        background-color: $header-background;
+        color: white;
+
+        th {
+            padding: 15px;
+            font-weight: bold;
+            text-align: left;
+            border-bottom: 2px solid $border-color;
+        }
+    }
+
+    tbody {
+        tr {
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #f1f1f1; 
+            }
+
+            td {
+                padding: 15px;
+                border-bottom: 1px solid $border-color;
+                color: $text-color;
+                font-size: 16px;
+
+               
+                .badge {
+                    display: inline-block;
+                    padding: 5px 10px;
+                    border-radius: 10px;
+                    font-weight: bold;
+                    text-transform: capitalize; 
+                }
+
+                .adminBadge {
+                    background-color: #e0f7fa;
+                    color: #00695c;
+                }
+
+                .userBadge {
+                    background-color: #ffe0b2;
+                    color: #a44646;
+                }
+            }
+        }
+    }
+}
+
+.actionCell {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.adminButton,
+.deleteButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.adminButton {
+    color: #4CAF50; 
+}
+
+.deleteButton {
+    color: #f44336; 
+}
+
+
+
+
+.permissionDenied {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+
+    h2 {
+        font-size: 2rem;
+        color: #ff4d4d;
+    }
+
+    .backLink {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        color: #fff;
+        background-color: #0070f3;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #005bb5;
+        }
+    }
+}
+
